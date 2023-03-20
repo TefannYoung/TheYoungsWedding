@@ -155,7 +155,7 @@
   margin-bottom: 50px;
 }
 /* spacing on all sections */
-#About, #SAM, #Activities in QT , #TheVenue {
+#About, #Snippet, #SAM, #Activities in QT , #TheVenue {
   margin-top: 20px;
   padding-top: 20px;
 
@@ -210,3 +210,73 @@ footer p {
   margin: 0;
 }
 /* photos */
+
+  
+.photo{
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  border-radius: 20px;
+  
+}
+.item:hover{
+  flex: 15;
+}
+
+.item-1 { 
+  background-image: url('../images/t9.jpeg');
+}
+
+.item-2 { 
+  background-image: url('../images/t8.jpeg');
+}
+
+.item-3 { 
+  background-image: url('../images/t7.jpeg');
+}
+
+.item-4 { 
+  background-image: url('../images/t6.JPG');
+}
+
+.item-5 { 
+  background-image: url('../images/t5.JPG');
+}
+.item-6 { 
+  background-image: url('../images/t0.JPG');
+}
+
+.item-7 { 
+  background-image: url('../images/t11.jpeg');
+}
+
+.item-8 { 
+  background-image: url('../images/t12.jpeg');
+}
+
+.item-9 { 
+  background-image: url('../images/t13.jpeg');
+}
+
+.item-0 { 
+  background-image: url('../images/t14.jpeg');
+}
+.item-11 { 
+  background-image: url('../images/t15.jpeg');
+}
