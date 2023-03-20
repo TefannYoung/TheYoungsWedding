@@ -1,13 +1,5 @@
 @media (min-width: 576px) and (max-width: 767.98px) {  
    
-
-  .full {
-            
-    background-image: url('../images/blurd.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-  }
    .navbar {
       background-color: #E0BBE4;
       position: fixed;
@@ -157,7 +149,7 @@
     margin-bottom: 50px;
   }
   /* spacing on all sections */
-  #About, #SAM, #Activities in QT , #TheVenue {
+  #About, #CameraRoll, #SAM, #Activities in QT , #TheVenue {
     margin-top: 20px;
     padding-top: 20px;
   

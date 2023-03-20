@@ -155,7 +155,7 @@
   margin-bottom: 50px;
 }
 /* spacing on all sections */
-#About, #SAM, #Activities in QT , #TheVenue {
+#About, #CameraRoll, #SAM, #Activities in QT , #TheVenue {
   margin-top: 20px;
   padding-top: 20px;
 
@@ -238,6 +238,7 @@ footer p {
 .item:hover{
   flex: 15;
 }
+
 
 .item-1 { 
   background-image: url('../images/t9.jpeg');
