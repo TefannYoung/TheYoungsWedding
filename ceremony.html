@@ -16,27 +16,48 @@
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
     <link href="https://fonts.cdnfonts.com/css/wedding" rel="stylesheet">
     <style>
+      /* Center the content horizontally and vertically */
+      .recep {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        padding-top: 10px;
+      }
 
+      /* Add some spacing around the table */
+      table {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -80px;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+      }
       
-        .row {
-            margin: 10px auto 30px auto; /* set top and bottom margin to 10px and 30px respectively, and left and right margins to auto */
-          }
-          .box {
-            max-width: 500px;
-            width: 100%;
-            height: auto;
-            background-color: rgb(234, 210, 246);
-            text-align: center;
-            padding: 20px;
-            box-sizing: border-box;
-            margin: 10px auto 30px auto; /* set top and bottom margin to 10px and 30px respectively, and left and right margins to auto */
-            border-radius: 20px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-          }
-          
-          .box h4 {
-              margin-top: 0;
-            }
+      .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: -70px;
+      }
+      .rounded-image {
+        border-radius: 5%;
+      }
+
+      .grid-table {
+        border-collapse: collapse;
+      }
+      
+      .grid-table th,
+      .grid-table td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      
+      
     </style>  
 </head>
 <body class="full">
@@ -53,14 +74,85 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            
-            
           </ul>
         </div>
       </nav>
-    <div class="container mt-4 pt-4">
+    <div class="recep">
         <h1 class="text-center">Ceremony Seating Plan</h1>
     </div>
+    <div class="centered">
+      <img src="images/TO.png" alt="Seating plan" class="rounded-image">
+    </div>
+    <table class="grid-table">
+      <tbody>
+          <tr>
+            <td colspan="14" align="center">ARCH</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Kevin Alcantara</td>
+            <td>Eugene Llorico</td>
+            <td>Danny Young</td>
+            <td></td>
+            <td></td>
+            <td>Cyril Alinsod</td>
+            <td>Kunlanut Kasher</td>
+            <td>Fuka Hagino</td>
+            <td>Nhuan Anh Pham</td>
+            <td>Monique Tucker</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Timothy</td>
+            <td>Tefanny</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Carmel Richardson</td>
+            <td>Greame Young</td>
+            <td>Susanna Berry</td>
+            <td>Tilly Walter</td>
+            <td>Michelle Young</td>
+            <td></td>
+            <td></td>
+            <td>Teresita Imanil</td>
+            <td>Tejane Mortel</td>
+            <td>Neriah Mortel</td>
+            <td>Natalie Mortel</td>
+            <td>Mark Mortel</td>
+            <td>Silner Imanil</td>
+            <td>Joshua Pascual</td>
+          </tr>
+          <tr>
+            <td>Heremia Nikora</td>
+            <td>Kalista Pijnaker</td>
+            <td>Clarisse Weber</td>
+            <td>Ludmila Cristo</td>
+            <td>Danica Mayce</td>
+            <td></td>
+            <td></td>
+            <td>Joan Thomas</td>
+            <td>Martin Thomas</td>
+            <td>Hazel Coombridge</td>
+            <td>Jacob Coombridge</td>
+            <td>Lin Dialde</td>
+            <td>Beatriz</td>
+          </tr>
+          
+      </tbody>
+    </table>
+    
     <!-- footer section-->
      <footer style="background-color: #E0BBE4">
         <div class="left">

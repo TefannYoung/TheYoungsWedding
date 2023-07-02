@@ -16,27 +16,49 @@
     <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
     <link href="https://fonts.cdnfonts.com/css/wedding" rel="stylesheet">
     <style>
-
       
-        .row {
-            margin: 10px auto 30px auto; /* set top and bottom margin to 10px and 30px respectively, and left and right margins to auto */
-          }
-          .box {
-            max-width: 500px;
-            width: 100%;
-            height: auto;
-            background-color: rgb(234, 210, 246);
-            text-align: center;
-            padding: 20px;
-            box-sizing: border-box;
-            margin: 10px auto 30px auto; /* set top and bottom margin to 10px and 30px respectively, and left and right margins to auto */
-            border-radius: 20px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-          }
-          
-          .box h4 {
-              margin-top: 0;
-            }
+      /* Center the content horizontally and vertically */
+      .recep {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        padding-top: 10px;
+      }
+
+      /* Add some spacing around the table */
+      table {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+      }
+      
+      .centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: -100px;
+      }
+      .rounded-image {
+        border-radius: 5%;
+      }
+
+      .grid-table {
+        border-collapse: collapse;
+      }
+      
+      .grid-table th,
+      .grid-table td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      
+      
     </style>  
 </head>
 <body class="full">
@@ -53,14 +75,86 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            
-            
           </ul>
         </div>
       </nav>
-    <div class="container mt-4 pt-4">
+    <div class="recep">
         <h1 class="text-center">Reception Seating Plan</h1>
     </div>
+    <div class="centered">
+      <img src="images/LO.png" alt="Seating plan" class="rounded-image">
+    </div>
+    <table class="grid-table">
+      <tbody>
+        <thead>
+          <tr>
+            <th>TABLE 1</th>
+            <th>TABLE 2 - Row 1</th>
+            <th>TABLE 2 - Row 2</th>
+            <th>TABLE 3 - Row 1</th>
+            <th>TABLE 3 - Row 2</th>
+          </tr>
+          <tr>
+            <td>Tims's Left side-  Carmel Richardson</td>
+            <td>Ludmila Cristo</td>
+            <td>Joshua Pascual</td>
+            <td>Danny Young</td>
+            <td>Tejane Mortel</td>
+          </tr>
+          <tr>
+            <td>Tim's Left side- Greame Young</td>
+            <td>Danica Moyce</td>
+            <td>Cyril Alinsod</td>
+            <td>Susanna Berry</td>
+            <td>Mark Mortel</td>
+          </tr>
+          <tr>
+            <td>Timothy Young</td>
+            <td>Clarisse Weber</td>
+            <td>Nhuan Anh Phan</td>
+            <td>Tilly Walter</td>
+            <td>Natalie Mortel</td>
+          </tr>
+          <tr>
+            <td>Tefanny Imanil</td>
+            <td>Kallista Pijnaker</td>
+            <td>Kunlanat Kasher</td>
+            <td>Joan Thomas</td>
+            <td>Neriah Mortel</td>
+          </tr>
+          <tr>
+            <td>Tef's Right side- Teresita Imanil</td>
+            <td>Heremia Nikora</td>
+            <td>Monique Tucker</td>
+            <td>Martin Thomas</td>
+            <td>Silner Imanil</td>
+          </tr>
+          <tr>
+            <td>Tef's Right side- Michelle Young</td>
+            <td></td>
+            <td>Fuka Hagino</td>
+            <td>Hazel Coombridge</td>
+            <td>Lin Dialde</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Yuko Eiki</td>
+            <td>Jacob Coombridge</td>
+            <td>Kevin Alcantara</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Ken</td>
+            <td>Eugene Llorico</td>
+            <td>Beatriz</td>
+          </tr>
+        </thead>
+        
+      </tbody>
+    </table>
+    
     <!-- footer section-->
      <footer style="background-color: #E0BBE4">
         <div class="left">
