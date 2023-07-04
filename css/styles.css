@@ -277,5 +277,47 @@
     background-image: url('../images/t15.jpeg');
   }
     
+/*recep seatting*/
+  .recep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 10px;
+  }
+
+  /* Add some spacing around the table */
+  table {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-top: -70px;
+  }
+  .rounded-image {
+    border-radius: 5%;
+  }
+
+  .grid-table {
+    border-collapse: collapse;
+  }
+  
+  .grid-table th,
+  .grid-table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
 
 }
+ 
+  
